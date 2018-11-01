@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Oswald-b';
+    src: url('../font/Oswald-Bold.ttf')  format('truetype'),
+}
+@font-face {
+    font-family: 'Oswald-h';
+    src: url('../font/Oswald-Heavy.ttf')  format('truetype'),
+}
+@font-face {
+    font-family: 'Oswald-l';
+    src: url('../font/Oswald-Light.ttf')  format('truetype'),
+}
+@font-face {
+    font-family: 'Oswald-r';
+    src: url('../font/Oswald-Regular.ttf')  format('truetype'),
+}
+@font-face {
+    font-family: 'Oswald-m';
+    src: url('../font/Oswald-Medium.ttf')  format('truetype'),
+}
+
+body{
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+}
+h2{
+	font-family: Oswald-l;
+	font-size: 36px;
+}
+h1{
+	font-family: Oswald-b;
+	font-weight: 500;
+	font-size: 56px;	
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.heroSlider {
+  position: relative;
+  margin: auto;
+  	.mySlides {
+   		display: none;
+   		position:relative;
+/* Hide the images by default */
+			/* Caption text */
+		.sliderContent{
+				position: absolute;
+				top: 30%;
+				width: 100%;
+
+			}
+			.sliderText {
+			  	 color: #f2f2f2;
+			 	 font-size: 15px;
+			  	 padding: 8px 12px;
+			  	 width: 40%;
+			  	 text-align: center;
+			  	 float: left;
+
+			}
+			.sliderImage{
+				float: left;
+				overflow: hidden;
+			}		
+		}
+		/* Fading animation */
+	.fade {
+	  	 -webkit-animation-name: fade;
+	 	 -webkit-animation-duration: 1.5s;
+	 	 animation-name: fade;
+	  	 animation-duration: 1.5s;
+	}
+
+	@-webkit-keyframes fade {
+	  	 from {opacity: .4} 
+	 	 to {opacity: 1}
+	}
+
+	@keyframes fade {
+	 	 from {opacity: .4} 
+	 	 to {opacity: 1}
+	}
+	/* Next & previous buttons */
+	.prev, .next {
+  		cursor: pointer;
+  		position: absolute;
+  		top: 50%;	
+  		width: auto;
+  		margin-top: -22px;
+  		padding: 16px;
+  		color: white;
+  		font-weight: bold;
+  		font-size: 18px;
+  		transition: 0.6s ease;
+  		border-radius: 0 3px 3px 0;
+	}
+
+		/* Position the "next button" to the right */
+	.next {
+		right: 0;
+		border-radius: 3px 0 0 3px;
+	}
+
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover, .next:hover {
+	  background-color: rgba(0,0,0,0.8);
+	}
+}
+
+
