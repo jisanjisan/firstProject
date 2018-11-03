@@ -1,4 +1,4 @@
 # firstProject
 hello
 
-https://preview.themeforest.net/item/bardy-beard-oil-ecommerce-bootstrap-4-template/full_screen_preview/22719606
+https://d29u17ylf1ylz9.cloudfront.net/bardy-v3/bardy/index.html

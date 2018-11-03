@@ -39,6 +39,16 @@ h1 {
           box-sizing: border-box;
 }
 
+.contentArea {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.contentBox {
+  width: 50%;
+  float: left;
+}
+
 /* Slideshow container */
 .heroSlider {
   position: relative;
@@ -113,6 +123,31 @@ h1 {
 }
 .heroSlider .prev:hover, .heroSlider .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.contentArea {
+  background: url(../image/about-shape-1.png);
+  background-repeat: no-repeat;
+}
+
+.aboutSection {
+  padding: 50px;
+}
+.aboutSection .infoArea {
+  float: left;
+  width: 40%;
+  background: transparent;
+}
+.aboutSection .imageArea {
+  width: 60%;
+  float: left;
+}
+.aboutSection .imageArea .imageColumn2 {
+  margin-top: -50px;
+}
+.aboutSection .imageArea img {
+  padding: 8px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
