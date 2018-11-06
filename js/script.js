@@ -22,6 +22,12 @@
   }
 
 
-// end of slider script
+// end of hero slider script
 
+  $(document).ready(function(){
+    $('.your-class').slick({
+      setting-name: setting-value
+    });
+  });
 
+// end of product slider script
